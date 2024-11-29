@@ -58,6 +58,13 @@ export default tseslint.config(
             'sibling',
             'index',
           ],
+          pathGroups: [
+            {
+              pattern: 'react',
+              group: 'external',
+              position: 'before',
+            },
+          ],
           pathGroupsExcludedImportTypes: ['internal'],
           alphabetize: {
             order: 'asc',

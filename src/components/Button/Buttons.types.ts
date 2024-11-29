@@ -1,5 +1,6 @@
-import { icons } from 'lucide-react';
 import React from 'react';
+
+import { icons } from 'lucide-react';
 
 export type Variant =
   | 'primary'

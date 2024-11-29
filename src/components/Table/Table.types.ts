@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { Dispatch, SetStateAction } from 'react';
+import React from 'react';
 
-import { PaginationProps } from '../../molecules';
+import { PaginationProps } from '@/components/Pagination/Pagination.types';
 
 export type TableProps<T extends { id: string; [key: string]: unknown }> = {
-  headers: {
+  columns: {
     header: string;
     headerFormatter?: (header: string) => React.ReactNode;
     formatter?: ({ data }: { data: T; value: any }) => React.ReactNode;
@@ -23,8 +23,8 @@ export type TableProps<T extends { id: string; [key: string]: unknown }> = {
   };
   pagination?: {
     page: number;
-    setPage: Dispatch<SetStateAction<number>>;
-    meta: PaginationMeta;
+    lastPage: number;
+    setPage: (value: number) => void;
   } | null;
 };
 
@@ -44,15 +44,8 @@ export type TRows = { row: TRow; mapKey: string }[];
 
 export type PaginationMeta = {
   current_page: number;
-  from: number;
-  last_page: number;
+  prev: number;
+  last: number;
   per_page: number;
-  to: number;
   total: number;
-  path: string;
-  links: {
-    active: boolean;
-    label: string;
-    url: string | null;
-  }[];
 };

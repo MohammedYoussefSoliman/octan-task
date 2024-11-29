@@ -1,5 +1,6 @@
-import { motion } from 'framer-motion';
 import { useState } from 'react';
+
+import { motion } from 'framer-motion';
 
 import { NavButton, IconButton } from '@/components';
 
@@ -12,7 +13,7 @@ export const Aside = ({ primaryNavItems }: SidebarProps) => {
     <motion.aside
       animate={{ width: expanded ? '240px' : '56px' }}
       transition={{ duration: 0.2, ease: 'easeOut' }}
-      className="relative  z-10 shrink-0 hidden flex-col border-border bg-white xl:flex space-y-2 overflow-hidden border-r"
+      className="relative  shrink-0 hidden flex-col border-border bg-white xl:flex space-y-2 overflow-hidden border-r"
     >
       <div className="space-y-2 p-2">
         <IconButton

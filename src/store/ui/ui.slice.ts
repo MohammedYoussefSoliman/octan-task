@@ -5,7 +5,7 @@ type UIState = {
 };
 
 const initialState: UIState = {
-  showMobileAside: true,
+  showMobileAside: false,
 };
 
 const slice = createSlice({

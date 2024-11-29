@@ -13,18 +13,27 @@ export type SingleRoleModuleRoute = RouteObject & {
 };
 
 export type Order = {
-  id: number;
+  id: string;
   customerName: string;
   date: string;
   status: Status;
   total: number;
-  currency: 'EGP' | 'USD' | 'SAR';
 };
 
 export type User = {
-  id: number;
-  name: string;
+  id: string;
+  username: string;
   email: string;
-  status: UserRoles;
+  role: UserRoles;
   active: boolean;
+};
+
+export type HTTPResponseType<T> = {
+  data: T;
+  first: number;
+  prev: number;
+  next: number;
+  last: number;
+  pages: number;
+  items: number;
 };

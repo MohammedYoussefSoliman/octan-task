@@ -1,5 +1,6 @@
-import * as SelectPrimitive from '@radix-ui/react-select';
 import { forwardRef } from 'react';
+
+import * as SelectPrimitive from '@radix-ui/react-select';
 
 import { Icon } from '@/components';
 import { cn } from '@/utils';

@@ -1,5 +1,6 @@
-import * as SelectPrimitive from '@radix-ui/react-select';
 import { forwardRef } from 'react';
+
+import * as SelectPrimitive from '@radix-ui/react-select';
 
 import { Icon } from '@/components';
 import { cn } from '@/utils';
@@ -11,7 +12,7 @@ export const SelectItem = forwardRef<
   <SelectPrimitive.Item
     ref={ref}
     className={cn(
-      'relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50',
+      'bg-slate-50 relative flex w-full select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 hover:bg-indigo-50 cursor-pointer',
       className,
     )}
     {...props}

@@ -12,7 +12,7 @@ const createTypography = (content: React.ReactNode, className: string) => (
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const useTable = <T extends { id: string; [key: string]: any }>({
-  headers,
+  columns,
   tableData,
 }: Omit<TableProps<T>, 'footer' | 'isLoading' | 'pagination'>) => {
   const createHeaderElement = (
@@ -27,7 +27,7 @@ const useTable = <T extends { id: string; [key: string]: any }>({
   };
 
   const createCellElement = (
-    header: TableProps<T>['headers'][0],
+    header: TableProps<T>['columns'][0],
     rowData: T,
   ) => {
     const value = rowData[header.accessor];
@@ -41,7 +41,7 @@ const useTable = <T extends { id: string; [key: string]: any }>({
       : content;
   };
 
-  const tHeaders: Thead = headers.map((h, index) => ({
+  const tHeaders: Thead = columns.map((h, index) => ({
     Element: createHeaderElement(h.header, h.headerFormatter),
     mapKey: `${h.header}-${index}`,
     width: h.width,
@@ -49,7 +49,7 @@ const useTable = <T extends { id: string; [key: string]: any }>({
   }));
 
   const tRows: TRows = tableData.map((rowData, rowIndex) => ({
-    row: headers.map((header, colIndex) => ({
+    row: columns.map((header, colIndex) => ({
       Element: createCellElement(header, rowData),
       mapKey: `cell-${rowIndex}-${colIndex}`,
     })),
@@ -57,7 +57,7 @@ const useTable = <T extends { id: string; [key: string]: any }>({
   }));
 
   const loadingRows: TRows = Array.from({ length: 15 }, (_, rowIndex) => ({
-    row: headers.map((_, colIndex) => ({
+    row: columns.map((_, colIndex) => ({
       Element: (
         <div className="w-[100px]">
           <Skeleton className="w-full h-7" />

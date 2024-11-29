@@ -1,28 +1,22 @@
 import { Pagination } from '@/components';
-import { cn } from '@/utils';
 
 import { TableProps } from './Table.types';
 import useTable from './useTable';
 
 export function Table<T extends { id: string; [key: string]: unknown }>({
-  headers,
+  columns,
   tableData,
   isLoading,
   pagination = null,
 }: TableProps<T>) {
   const { tHeaders, tRows, loadingRows } = useTable({
-    headers,
+    columns,
     tableData,
   });
 
   return (
-    <div className="max-w-full max-h-full">
-      <div
-        className={cn('w-full overflow-auto mt-5 md:mt-2', {
-          'max-h-[68%] md:max-h-[84%]': pagination,
-          'max-h-[72%] md:max-h-[90%]': !pagination,
-        })}
-      >
+    <div className="flex flex-col gap-2 max-w-full">
+      <div className="w-full bg-white overflow-auto mt-5 md:mt-2 flex-1 max-h-[calc(100vh-175px)] md:max-h-[calc(100vh-200px)] xl:max-h-[calc(100vh-165px)]">
         <table className="w-full border-spacing-0 border-separate">
           <thead className="sticky top-0">
             <tr>
@@ -60,19 +54,13 @@ export function Table<T extends { id: string; [key: string]: unknown }>({
         </table>
       </div>
       {pagination && (
-        <div className="w-full p-2 absolute bottom-1 inset-x-0 z-20">
+        <div className="w-full p-2 h-[70px]">
           <Pagination
-            pagesLength={pagination.meta.last_page || 0}
+            pagesLength={pagination.lastPage || 0}
             activePage={pagination.page}
-            handleNext={() => pagination.setPage((p) => p + 1)}
-            handlePrev={() => pagination.setPage((p) => p - 1)}
+            handleNext={() => pagination.setPage(pagination.page + 1)}
+            handlePrev={() => pagination.setPage(pagination.page - 1)}
             dotClick={(value) => pagination.setPage(value)}
-            // selectOptions={[10, 25, 50]}
-            // onSelect={(value) => {
-            //   setPerPage(value);
-            // }}
-            // perPage={perPage}
-            // loading={isLoading}
           />
         </div>
       )}

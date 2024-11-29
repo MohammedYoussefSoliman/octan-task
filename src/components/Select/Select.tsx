@@ -31,7 +31,7 @@ export function SelectInput({
       <SelectTrigger className="w-full">
         <SelectValue placeholder={placeholder} />
       </SelectTrigger>
-      <SelectContent>
+      <SelectContent className="bg-white">
         <SelectGroup>
           {label && <SelectLabel>{label}</SelectLabel>}
           {options.map((option) => (

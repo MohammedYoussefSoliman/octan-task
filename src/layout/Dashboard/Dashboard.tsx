@@ -1,5 +1,6 @@
-import { useMediaQuery } from '@uidotdev/usehooks';
 import { useState, ReactNode } from 'react';
+
+import { useMediaQuery } from '@uidotdev/usehooks';
 
 import { IconName } from '@/components/Icon/Icon.types';
 
@@ -33,9 +34,11 @@ export function Dashboard({ children }: DashboardProps) {
   const [showMobileSidebar, setShowMobileSidebar] = useState(false);
 
   return (
-    <main className="flex min-h-screen w-screen overflow-hidden justify-between bg-neutral-50">
-      <Aside primaryNavItems={primaryNavItems} />
-      {children}
+    <>
+      <main className="flex min-h-screen w-screen overflow-hidden justify-between bg-neutral-50">
+        <Aside primaryNavItems={primaryNavItems} />
+        {children}
+      </main>
       {isSmallScreen && (
         <MobileAside
           primaryNavItems={primaryNavItems}
@@ -43,6 +46,6 @@ export function Dashboard({ children }: DashboardProps) {
           setShowSidebar={setShowMobileSidebar}
         />
       )}
-    </main>
+    </>
   );
 }

@@ -3,11 +3,13 @@ import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import { createLogger } from 'redux-logger';
 
 import ordersSlice from './orders';
+import uiSlice from './ui';
 import usersSlice from './users';
 
 // Slices
 
 const rootReducer = combineReducers({
+  ui: uiSlice,
   orders: ordersSlice,
   users: usersSlice,
 });

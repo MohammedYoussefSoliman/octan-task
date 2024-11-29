@@ -33,7 +33,7 @@ export function Table<T extends { id: string; [key: string]: unknown }>({
                   }}
                   key={mapKey}
                   colSpan={headerColSpan}
-                  className="sticky p-3 bg-primary-50 whitespace-nowrap w-max first:rounded-l-lg last:rounded-r-lg text-left"
+                  className="sticky p-3 bg-indigo-50 whitespace-nowrap w-max first:rounded-l-lg last:rounded-r-lg text-left"
                 >
                   {Element}
                 </th>

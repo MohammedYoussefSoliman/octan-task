@@ -4,6 +4,8 @@ import urls from '@/helpers/urls';
 
 import { ShieldProps } from './Shield.types';
 
+import { Dashboard } from '@/layout';
+
 const roles = ['admin', 'user'];
 
 export function Shield({ role }: ShieldProps) {
@@ -11,5 +13,9 @@ export function Shield({ role }: ShieldProps) {
 
   if (!roles.includes(role)) return <Navigate to={urls.notFound} replace />;
 
-  return <Outlet />;
+  return (
+    <Dashboard>
+      <Outlet />
+    </Dashboard>
+  );
 }

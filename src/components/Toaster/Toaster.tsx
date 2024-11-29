@@ -23,10 +23,10 @@ export const Toaster = ({
       toastOptions={{
         classNames: {
           title: '!font-medium',
-          info: '!bg-primary-50 !text-primary-500 !border-primary-100',
+          info: '!bg-indigo-50 !text-indigo-500 !border-indigo-100',
           description: '!text-neutral-500',
           actionButton:
-            '!bg-primary-500 !text-primary-50 hover:!bg-primary-600/90 !transition-colors',
+            '!bg-indigo-500 !text-indigo-50 hover:!bg-indigo-600/90 !transition-colors',
         },
       }}
     />

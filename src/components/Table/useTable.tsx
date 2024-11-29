@@ -22,7 +22,7 @@ const useTable = <T extends { id: string; [key: string]: any }>({
     const content = formatter ? formatter(header) : header;
 
     return typeof content === 'string'
-      ? createTypography(content, 'text-primary-500 font-semibold')
+      ? createTypography(content, 'text-indigo-500 font-semibold')
       : content;
   };
 

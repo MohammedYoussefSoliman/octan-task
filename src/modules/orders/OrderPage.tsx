@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button, InfoItem, Status } from '@/components';
 import { Order } from '@/types/common.types';
 
-import { Template } from '@/layout';
+import { Template } from '@/layouts';
 
 export default function OrderPage() {
   const { id } = useParams<{ id: string }>();

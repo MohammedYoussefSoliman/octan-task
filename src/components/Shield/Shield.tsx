@@ -1,21 +1,31 @@
 import { Navigate, Outlet } from 'react-router-dom';
 
 import urls from '@/helpers/urls';
+import { useAuth } from '@/hooks';
+import { layouts } from '@/layouts';
 
 import { ShieldProps } from './Shield.types';
 
-import { Dashboard } from '@/layout';
+export function Shield({ role, layout = 'normal' }: ShieldProps) {
+  const Layout = layouts[layout];
 
-const roles = ['admin', 'user'];
+  const { loggedIn, roles: userRoles } = useAuth();
 
-export function Shield({ role }: ShieldProps) {
-  if (role === 'public' || role === '*') return <Outlet />;
+  if (role === 'public' || role === '*')
+    return (
+      <Layout>
+        <Outlet />
+      </Layout>
+    );
 
-  if (!roles.includes(role)) return <Navigate to={urls.notFound} replace />;
+  if (!loggedIn) return <Navigate to={urls.login} replace />;
+
+  if (loggedIn && !userRoles.includes(role))
+    return <Navigate to="/access-denied" replace />;
 
   return (
-    <Dashboard>
+    <Layout>
       <Outlet />
-    </Dashboard>
+    </Layout>
   );
 }

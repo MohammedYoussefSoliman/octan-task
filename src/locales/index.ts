@@ -1,0 +1,12 @@
+import './ar';
+import './en';
+// import '@/modules/access-denied/locales';
+// import '@/modules/about/locales';
+// import '@/modules/home/locales';
+// import '@/modules/orders/locales';
+// import '@/modules/maintenance/locales';
+// import '@/modules/server-error/locales';
+import '@/modules/auth/pages/locales';
+// import '@/modules/account/locales';
+// import '@/modules/business/locales';
+// import '@/modules/store/locales';

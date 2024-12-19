@@ -1,10 +1,12 @@
 import { RouteObject } from 'react-router-dom';
 
+import { LayoutType } from '@/layouts/types';
 import { SingleRoleModuleRoute } from '@/types/common.types';
 
 export type ReadyRoute = {
   routes: RouteObject[];
   role?: string;
+  layout?: LayoutType;
 };
 
 const prepareRoute = (

@@ -2,10 +2,13 @@ import { RouteObject } from 'react-router-dom';
 
 export type RoleType = 'user' | 'public' | '*';
 
+import { LayoutType } from '@/layouts/types';
+
 import { UserRoles, Status } from './enums';
 
 export type ModuleRoute = RouteObject & {
   roles?: string[];
+  layout?: LayoutType;
 };
 
 export type SingleRoleModuleRoute = RouteObject & {

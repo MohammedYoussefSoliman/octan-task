@@ -10,6 +10,7 @@ const prepareSingleRoleRoute = (
   moduleRoute.roles.forEach((role) => {
     const route = { ...moduleRoute };
     delete route.roles;
+    delete route.layout;
     preparedRoutes = [...preparedRoutes, { ...route, role }];
   });
   return preparedRoutes;

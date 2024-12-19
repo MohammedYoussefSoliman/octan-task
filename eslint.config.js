@@ -36,11 +36,12 @@ export default tseslint.config(
         typescript: {},
       },
       'import/internal-regex':
-        '(@/layouts|@/components|@/hooks|@/providers|@/assets|@/services|@/helpers|@/theme|@/store|@/types|@/modules|@/utils)(/.+)?',
+        '(@/layouts|@/components|@/hooks|@/providers|@/assets|@/services|@/helpers|@/theme|@/state|@/types|@/modules|@/utils|@/Providers)(/.+)?',
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': 'off',
+      '@typescript-eslint/no-explicit-any': 'warn',
       'import/order': [
         'error',
         {
@@ -66,10 +67,6 @@ export default tseslint.config(
             },
           ],
           pathGroupsExcludedImportTypes: ['internal'],
-          alphabetize: {
-            order: 'asc',
-            caseInsensitive: true,
-          },
         },
       ],
     },

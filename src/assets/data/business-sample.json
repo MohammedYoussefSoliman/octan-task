@@ -1,0 +1,79 @@
+{
+  "title": "I am a Business",
+  "description": "We front the refunds while you reap the benefits. Risk free",
+  "trustedBy": {
+    "title": "trusted by",
+    "logos": ["trusted_by_1", "trusted_by_2", "trusted_by_3", "trusted_by_4"]
+  },
+  "banner": "https://api.yammrefund.com/asset/images/frontend/banner.png",
+  "advantages": {
+    "title": "What's in it for you?",
+    "records": [
+      {
+        "icon": "icon_1",
+        "title": "Maximise Customer Retention and Repurchase Metrics",
+        "description": "92% of customers return to a store after an easy refund experience. Refundid's simple and efficient refund process has meant Refundid customers are more likely to return to your store  and spend more in their next order."
+      },
+      {
+        "icon": "icon_2",
+        "title": "Improved Customer Service Efficiency",
+        "description": "70% of customer complaints are return-related. By removing customer friction in the refund process, Refundid drastically reduces customer service tickets and improves customer service teams’ efficiency."
+      },
+      {
+        "icon": "icon_3",
+        "title": "Increase Customer Confidence",
+        "description": "72% of customers check a return policy before making a purchase. By offering a seamless and simple refunding process, Refundid reduces purchasing doubt and boosts customer confidence."
+      },
+      {
+        "icon": "icon_4",
+        "title": "Improved Cash Flows",
+        "description": "72% of customers check a return policy before making a purchase. By offering a seamless and simple refunding process, Refundid reduces purchasing doubt and boosts customer confidence."
+      },
+      {
+        "icon": "icon_5",
+        "title": "Return Analytics",
+        "description": "72% of customers check a return policy before making a purchase. By offering a seamless and simple refunding process, Refundid reduces purchasing doubt and boosts customer confidence."
+      },
+      {
+        "icon": "icon_6",
+        "title": "Completely Risk-Free",
+        "description": "72% of customers check a return policy before making a purchase. By offering a seamless and simple refunding process, Refundid reduces purchasing doubt and boosts customer confidence."
+      }
+    ]
+  },
+  "theFigure": {
+    "title": "the figure",
+    "items": [
+      {
+        "value": "28%",
+        "description": "Increase in repurchase rates from customers using Refunded"
+      },
+      {
+        "value": "47%",
+        "description": "Increase in same-day repurchase rates from customers using Refunded"
+      },
+      {
+        "value": "30%",
+        "description": "Increase in repurchase value from customers using Refunded"
+      }
+    ]
+  },
+  "howItWorks": [
+    {
+      "caption": "Customers select the item they wish to return",
+      "image": "https://api.yammrefund.com/asset/images/frontend/how-to-img1.png"
+    },
+    {
+      "image": "https://api.yammrefund.com/asset/images/frontend/how-to-img2.png",
+      "caption": "Yamm pays customers their refund in real-time"
+    },
+    {
+      "caption": "Customers ship back items to the merchant",
+      "image": "https://api.yammrefund.com/asset/images/frontend/how-to-img3.png"
+    },
+    {
+      "caption": "Merchants have 21 days to either accept or decline",
+      "image": "https://api.yammrefund.com/asset/images/frontend/how-to-img2.png"
+    }
+  ]
+}

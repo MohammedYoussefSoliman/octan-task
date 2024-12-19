@@ -1,18 +1,13 @@
-import { icons } from 'lucide-react';
+import icons from '@/assets/svgs';
+import { SVGprop } from '@/assets/svgs/types';
 
-import { IconProps } from './Icon.types';
+export type IconType = keyof typeof icons;
 
-export default function Icon({
-  name,
-  iconFill = 'outlined',
-  ...rest
-}: IconProps) {
+type Props = {
+  name: IconType;
+} & SVGprop;
+
+export function Icon({ name, ...rest }: Props) {
   const SelectedIcon = icons[name];
-
-  return (
-    <SelectedIcon
-      {...rest}
-      fill={iconFill === 'filled' ? 'currentColor' : 'none'}
-    />
-  );
+  return <SelectedIcon {...rest} />;
 }

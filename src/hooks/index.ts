@@ -1,3 +1,11 @@
 export * from './reduxHooks';
 export * from './useAppRoutes';
 export * from './usePagination';
+export { default as useAuth } from './useAuth';
+export { default as useAxiosInstance } from './useAxiosInstance';
+export { default as useBreakpoints } from './useBreakpoints';
+export { default as useCurrentRoute } from './useCurrentRoute';
+export { default as useEventSource } from './useEventSource';
+export { default as useLocalTheme } from './useLocalTheme';
+export { default as useGetQuerySearch } from './useQuery';
+export { default as useWebSocket } from './useWebSocket';

@@ -1,0 +1,1247 @@
+[
+  {
+    "code": "AD",
+    "en": "Andorra",
+    "ar": "أندورا"
+  },
+  {
+    "code": "AE",
+    "en": "United Arab Emirates",
+    "ar": "الامارات العربية المتحدة"
+  },
+  {
+    "code": "AF",
+    "en": "Afghanistan",
+    "ar": "أفغانستان"
+  },
+  {
+    "code": "AG",
+    "en": "Antigua and Barbuda",
+    "ar": "أنتيغوا وباربودا"
+  },
+  {
+    "code": "AI",
+    "en": "Anguilla",
+    "ar": "أنجويلا"
+  },
+  {
+    "code": "AL",
+    "en": "Albania",
+    "ar": "ألبانيا"
+  },
+  {
+    "code": "AM",
+    "en": "Armenia",
+    "ar": "أرمينيا"
+  },
+  {
+    "code": "AO",
+    "en": "Angola",
+    "ar": "أنجولا"
+  },
+  {
+    "code": "AQ",
+    "en": "Antarctica",
+    "ar": "القارة القطبية الجنوبية"
+  },
+  {
+    "code": "AR",
+    "en": "Argentina",
+    "ar": "الأرجنتين"
+  },
+  {
+    "code": "AS",
+    "en": "American Samoa",
+    "ar": "ساموا الأمريكية"
+  },
+  {
+    "code": "AT",
+    "en": "Austria",
+    "ar": "النمسا"
+  },
+  {
+    "code": "AU",
+    "en": "Australia",
+    "ar": "أستراليا"
+  },
+  {
+    "code": "AW",
+    "en": "Aruba",
+    "ar": "آروبا"
+  },
+  {
+    "code": "AX",
+    "en": "Åland Islands",
+    "ar": "جزر أولان"
+  },
+  {
+    "code": "AZ",
+    "en": "Azerbaijan",
+    "ar": "أذربيجان"
+  },
+  {
+    "code": "BA",
+    "en": "Bosnia and Herzegovina",
+    "ar": "البوسنة والهرسك"
+  },
+  {
+    "code": "BB",
+    "en": "Barbados",
+    "ar": "بربادوس"
+  },
+  {
+    "code": "BD",
+    "en": "Bangladesh",
+    "ar": "بنجلاديش"
+  },
+  {
+    "code": "BE",
+    "en": "Belgium",
+    "ar": "بلجيكا"
+  },
+  {
+    "code": "BF",
+    "en": "Burkina Faso",
+    "ar": "بوركينا فاسو"
+  },
+  {
+    "code": "BG",
+    "en": "Bulgaria",
+    "ar": "بلغاريا"
+  },
+  {
+    "code": "BH",
+    "en": "Bahrain",
+    "ar": "البحرين"
+  },
+  {
+    "code": "BI",
+    "en": "Burundi",
+    "ar": "بوروندي"
+  },
+  {
+    "code": "BJ",
+    "en": "Benin",
+    "ar": "بنين"
+  },
+  {
+    "code": "BL",
+    "en": "Saint Barthelemy",
+    "ar": "سان بارتيلمي"
+  },
+  {
+    "code": "BM",
+    "en": "Bermuda",
+    "ar": "برمودا"
+  },
+  {
+    "code": "BN",
+    "en": "Brunei Darussalam",
+    "ar": "بروناي"
+  },
+  {
+    "code": "BO",
+    "en": "Bolivia (Plurinational State of)",
+    "ar": "بوليفيا"
+  },
+  {
+    "code": "BQ",
+    "en": "Bonaire, Sint Eustatius and Saba",
+    "ar": "الجزر الكاريبية الهولندية"
+  },
+  {
+    "code": "BR",
+    "en": "Brazil",
+    "ar": "البرازيل"
+  },
+  {
+    "code": "BS",
+    "en": "Bahamas",
+    "ar": "الباهاما"
+  },
+  {
+    "code": "BT",
+    "en": "Bhutan",
+    "ar": "بوتان"
+  },
+  {
+    "code": "BV",
+    "en": "Bouvet Island",
+    "ar": "جزيرة بوفيه"
+  },
+  {
+    "code": "BW",
+    "en": "Botswana",
+    "ar": "بتسوانا"
+  },
+  {
+    "code": "BY",
+    "en": "Belarus",
+    "ar": "روسيا البيضاء"
+  },
+  {
+    "code": "BZ",
+    "en": "Belize",
+    "ar": "بليز"
+  },
+  {
+    "code": "CA",
+    "en": "Canada",
+    "ar": "كندا"
+  },
+  {
+    "code": "CC",
+    "en": "Cocos (Keeling) Islands",
+    "ar": "جزر كوكوس"
+  },
+  {
+    "code": "CD",
+    "en": "Congo (Democratic Republic of the)",
+    "ar": "جمهورية الكونغو الديمقراطية"
+  },
+  {
+    "code": "CF",
+    "en": "Central African Republic",
+    "ar": "جمهورية أفريقيا الوسطى"
+  },
+  {
+    "code": "CG",
+    "en": "Congo",
+    "ar": "جمهورية الكونغو"
+  },
+  {
+    "code": "CH",
+    "en": "Switzerland",
+    "ar": "سويسرا"
+  },
+  {
+    "code": "CI",
+    "en": "Cote d’Ivoire",
+    "ar": "ساحل العاج"
+  },
+  {
+    "code": "CK",
+    "en": "Cook Islands",
+    "ar": "جزر كوك"
+  },
+  {
+    "code": "CL",
+    "en": "Chile",
+    "ar": "شيلي"
+  },
+  {
+    "code": "CM",
+    "en": "Cameroon",
+    "ar": "الكاميرون"
+  },
+  {
+    "code": "CN",
+    "en": "China",
+    "ar": "الصين"
+  },
+  {
+    "code": "CO",
+    "en": "Colombia",
+    "ar": "كولومبيا"
+  },
+  {
+    "code": "CR",
+    "en": "Costa Rica",
+    "ar": "كوستاريكا"
+  },
+  {
+    "code": "CU",
+    "en": "Cuba",
+    "ar": "كوبا"
+  },
+  {
+    "code": "CV",
+    "en": "Cabo Verde",
+    "ar": "الرأس الأخضر"
+  },
+  {
+    "code": "CW",
+    "en": "Curaçao",
+    "ar": "كوراساو"
+  },
+  {
+    "code": "CX",
+    "en": "Christmas Island",
+    "ar": "جزيرة عيد الميلاد"
+  },
+  {
+    "code": "CY",
+    "en": "Cyprus",
+    "ar": "قبرص"
+  },
+  {
+    "code": "CZ",
+    "en": "Czechia",
+    "ar": "جمهورية التشيك"
+  },
+  {
+    "code": "DE",
+    "en": "Germany",
+    "ar": "ألمانيا"
+  },
+  {
+    "code": "DJ",
+    "en": "Djibouti",
+    "ar": "جيبوتي"
+  },
+  {
+    "code": "DK",
+    "en": "Denmark",
+    "ar": "الدانمرك"
+  },
+  {
+    "code": "DM",
+    "en": "Dominica",
+    "ar": "دومينيكا"
+  },
+  {
+    "code": "DO",
+    "en": "Dominican Republic",
+    "ar": "جمهورية الدومينيكان"
+  },
+  {
+    "code": "DZ",
+    "en": "Algeria",
+    "ar": "الجزائر"
+  },
+  {
+    "code": "EC",
+    "en": "Ecuador",
+    "ar": "الاكوادور"
+  },
+  {
+    "code": "EE",
+    "en": "Estonia",
+    "ar": "استونيا"
+  },
+  {
+    "code": "EG",
+    "en": "Egypt",
+    "ar": "مصر"
+  },
+  {
+    "code": "EH",
+    "en": "Western Sahara",
+    "ar": "الصحراء الغربية"
+  },
+  {
+    "code": "ER",
+    "en": "Eritrea",
+    "ar": "اريتريا"
+  },
+  {
+    "code": "ES",
+    "en": "Spain",
+    "ar": "أسبانيا"
+  },
+  {
+    "code": "ET",
+    "en": "Ethiopia",
+    "ar": "اثيوبيا"
+  },
+  {
+    "code": "FI",
+    "en": "Finland",
+    "ar": "فنلندا"
+  },
+  {
+    "code": "FJ",
+    "en": "Fiji",
+    "ar": "فيجي"
+  },
+  {
+    "code": "FK",
+    "en": "Falkland Islands (Malvinas)",
+    "ar": "جزر فوكلاند"
+  },
+  {
+    "code": "FM",
+    "en": "Micronesia (Federated States of)",
+    "ar": "ميكرونيزيا"
+  },
+  {
+    "code": "FO",
+    "en": "Faroe Islands",
+    "ar": "جزر فارو"
+  },
+  {
+    "code": "FR",
+    "en": "France",
+    "ar": "فرنسا"
+  },
+  {
+    "code": "GA",
+    "en": "Gabon",
+    "ar": "الجابون"
+  },
+  {
+    "code": "GB",
+    "en": "United Kingdom of Great Britain and Northern Ireland",
+    "ar": "المملكة المتحدة"
+  },
+  {
+    "code": "GD",
+    "en": "Grenada",
+    "ar": "جرينادا"
+  },
+  {
+    "code": "GE",
+    "en": "Georgia",
+    "ar": "جورجيا"
+  },
+  {
+    "code": "GF",
+    "en": "French Guiana",
+    "ar": "غويانا"
+  },
+  {
+    "code": "GG",
+    "en": "Guernsey",
+    "ar": "جيرنزي"
+  },
+  {
+    "code": "GH",
+    "en": "Ghana",
+    "ar": "غانا"
+  },
+  {
+    "code": "GI",
+    "en": "Gibraltar",
+    "ar": "جبل طارق"
+  },
+  {
+    "code": "GL",
+    "en": "Greenland",
+    "ar": "جرينلاند"
+  },
+  {
+    "code": "GM",
+    "en": "Gambia",
+    "ar": "غامبيا"
+  },
+  {
+    "code": "GN",
+    "en": "Guinea",
+    "ar": "غينيا"
+  },
+  {
+    "code": "GP",
+    "en": "Guadeloupe",
+    "ar": "جوادلوب"
+  },
+  {
+    "code": "GQ",
+    "en": "Equatorial Guinea",
+    "ar": "غينيا الاستوائية"
+  },
+  {
+    "code": "GR",
+    "en": "Greece",
+    "ar": "اليونان"
+  },
+  {
+    "code": "GS",
+    "en": "South Georgia and the South Sandwich Islands",
+    "ar": "جورجيا الجنوبية وجزر ساندويتش الجنوبية"
+  },
+  {
+    "code": "GT",
+    "en": "Guatemala",
+    "ar": "جواتيمالا"
+  },
+  {
+    "code": "GU",
+    "en": "Guam",
+    "ar": "جوام"
+  },
+  {
+    "code": "GW",
+    "en": "Guinea-Bissau",
+    "ar": "غينيا بيساو"
+  },
+  {
+    "code": "GY",
+    "en": "Guyana",
+    "ar": "غيانا"
+  },
+  {
+    "code": "HK",
+    "en": "Hong Kong",
+    "ar": "هونغ كونغ"
+  },
+  {
+    "code": "HM",
+    "en": "Heard Island and McDonald Islands",
+    "ar": "جزيرة هيرد وجزر ماكدونالد"
+  },
+  {
+    "code": "HN",
+    "en": "Honduras",
+    "ar": "هندوراس"
+  },
+  {
+    "code": "HR",
+    "en": "Croatia",
+    "ar": "كرواتيا"
+  },
+  {
+    "code": "HT",
+    "en": "Haiti",
+    "ar": "هايتي"
+  },
+  {
+    "code": "HU",
+    "en": "Hungary",
+    "ar": "المجر"
+  },
+  {
+    "code": "ID",
+    "en": "Indonesia",
+    "ar": "اندونيسيا"
+  },
+  {
+    "code": "IE",
+    "en": "Ireland",
+    "ar": "أيرلندا"
+  },
+  {
+    "code": "IL",
+    "en": "Israel",
+    "ar": "اسرائيل"
+  },
+  {
+    "code": "IM",
+    "en": "Isle of Man",
+    "ar": "جزيرة مان"
+  },
+  {
+    "code": "IN",
+    "en": "India",
+    "ar": "الهند"
+  },
+  {
+    "code": "IO",
+    "en": "British Indian Ocean Territory",
+    "ar": "إقليم المحيط الهندي البريطاني"
+  },
+  {
+    "code": "IQ",
+    "en": "Iraq",
+    "ar": "العراق"
+  },
+  {
+    "code": "IR",
+    "en": "Iran (Islamic Republic of)",
+    "ar": "ايران"
+  },
+  {
+    "code": "IS",
+    "en": "Iceland",
+    "ar": "أيسلندا"
+  },
+  {
+    "code": "IT",
+    "en": "Italy",
+    "ar": "ايطاليا"
+  },
+  {
+    "code": "JE",
+    "en": "Jersey",
+    "ar": "جيرسي"
+  },
+  {
+    "code": "JM",
+    "en": "Jamaica",
+    "ar": "جامايكا"
+  },
+  {
+    "code": "JO",
+    "en": "Jordan",
+    "ar": "الأردن"
+  },
+  {
+    "code": "JP",
+    "en": "Japan",
+    "ar": "اليابان"
+  },
+  {
+    "code": "KE",
+    "en": "Kenya",
+    "ar": "كينيا"
+  },
+  {
+    "code": "KG",
+    "en": "Kyrgyzstan",
+    "ar": "قرغيزستان"
+  },
+  {
+    "code": "KH",
+    "en": "Cambodia",
+    "ar": "كمبوديا"
+  },
+  {
+    "code": "KI",
+    "en": "Kiribati",
+    "ar": "كيريباتي"
+  },
+  {
+    "code": "KM",
+    "en": "Comoros",
+    "ar": "جزر القمر"
+  },
+  {
+    "code": "KN",
+    "en": "Saint Kitts and Nevis",
+    "ar": "سانت كيتس ونيفيس"
+  },
+  {
+    "code": "KP",
+    "en": "Korea (Democratic People’s Republic of)",
+    "ar": "كوريا الشمالية"
+  },
+  {
+    "code": "KR",
+    "en": "Korea (Republic of)",
+    "ar": "كوريا الجنوبية"
+  },
+  {
+    "code": "KW",
+    "en": "Kuwait",
+    "ar": "الكويت"
+  },
+  {
+    "code": "KY",
+    "en": "Cayman Islands",
+    "ar": "جزر كايمان"
+  },
+  {
+    "code": "KZ",
+    "en": "Kazakhstan",
+    "ar": "كازاخستان"
+  },
+  {
+    "code": "LA",
+    "en": "Lao People’s Democratic Republic",
+    "ar": "لاوس"
+  },
+  {
+    "code": "LB",
+    "en": "Lebanon",
+    "ar": "لبنان"
+  },
+  {
+    "code": "LC",
+    "en": "Saint Lucia",
+    "ar": "سانت لوسيا"
+  },
+  {
+    "code": "LI",
+    "en": "Liechtenstein",
+    "ar": "ليختنشتاين"
+  },
+  {
+    "code": "LK",
+    "en": "Sri Lanka",
+    "ar": "سريلانكا"
+  },
+  {
+    "code": "LR",
+    "en": "Liberia",
+    "ar": "ليبيريا"
+  },
+  {
+    "code": "LS",
+    "en": "Lesotho",
+    "ar": "ليسوتو"
+  },
+  {
+    "code": "LT",
+    "en": "Lithuania",
+    "ar": "ليتوانيا"
+  },
+  {
+    "code": "LU",
+    "en": "Luxembourg",
+    "ar": "لوكسمبورج"
+  },
+  {
+    "code": "LV",
+    "en": "Latvia",
+    "ar": "لاتفيا"
+  },
+  {
+    "code": "LY",
+    "en": "Libya",
+    "ar": "ليبيا"
+  },
+  {
+    "code": "MA",
+    "en": "Morocco",
+    "ar": "المغرب"
+  },
+  {
+    "code": "MC",
+    "en": "Monaco",
+    "ar": "موناكو"
+  },
+  {
+    "code": "MD",
+    "en": "Moldova (Republic of)",
+    "ar": "مولدافيا"
+  },
+  {
+    "code": "ME",
+    "en": "Montenegro",
+    "ar": "الجبل الأسود"
+  },
+  {
+    "code": "MF",
+    "en": "Saint Martin (French Part)",
+    "ar": "تجمع سان مارتين"
+  },
+  {
+    "code": "MG",
+    "en": "Madagascar",
+    "ar": "مدغشقر"
+  },
+  {
+    "code": "MH",
+    "en": "Marshall Islands",
+    "ar": "جزر مارشال"
+  },
+  {
+    "code": "MK",
+    "en": "North Macedonia",
+    "ar": "مقدونيا"
+  },
+  {
+    "code": "ML",
+    "en": "Mali",
+    "ar": "مالي"
+  },
+  {
+    "code": "MM",
+    "en": "Myanmar",
+    "ar": "ميانمار"
+  },
+  {
+    "code": "MN",
+    "en": "Mongolia",
+    "ar": "منغوليا"
+  },
+  {
+    "code": "MO",
+    "en": "Macao",
+    "ar": "ماكاو"
+  },
+  {
+    "code": "MP",
+    "en": "Northern Mariana Islands",
+    "ar": "جزر ماريانا الشمالية"
+  },
+  {
+    "code": "MQ",
+    "en": "Martinique",
+    "ar": "مارتينيك"
+  },
+  {
+    "code": "MR",
+    "en": "Mauritania",
+    "ar": "موريتانيا"
+  },
+  {
+    "code": "MS",
+    "en": "Montserrat",
+    "ar": "مونتسرات"
+  },
+  {
+    "code": "MT",
+    "en": "Malta",
+    "ar": "مالطا"
+  },
+  {
+    "code": "MU",
+    "en": "Mauritius",
+    "ar": "موريشيوس"
+  },
+  {
+    "code": "MV",
+    "en": "Maldives",
+    "ar": "جزر المالديف"
+  },
+  {
+    "code": "MW",
+    "en": "Malawi",
+    "ar": "ملاوي"
+  },
+  {
+    "code": "MX",
+    "en": "Mexico",
+    "ar": "المكسيك"
+  },
+  {
+    "code": "MY",
+    "en": "Malaysia",
+    "ar": "ماليزيا"
+  },
+  {
+    "code": "MZ",
+    "en": "Mozambique",
+    "ar": "موزمبيق"
+  },
+  {
+    "code": "NA",
+    "en": "Namibia",
+    "ar": "ناميبيا"
+  },
+  {
+    "code": "NC",
+    "en": "New Caledonia",
+    "ar": "كاليدونيا الجديدة"
+  },
+  {
+    "code": "NE",
+    "en": "Niger",
+    "ar": "النيجر"
+  },
+  {
+    "code": "NF",
+    "en": "Norfolk Island",
+    "ar": "جزيرة نورفولك"
+  },
+  {
+    "code": "NG",
+    "en": "Nigeria",
+    "ar": "نيجيريا"
+  },
+  {
+    "code": "NI",
+    "en": "Nicaragua",
+    "ar": "نيكاراجوا"
+  },
+  {
+    "code": "NL",
+    "en": "Netherlands",
+    "ar": "هولندا"
+  },
+  {
+    "code": "NO",
+    "en": "Norway",
+    "ar": "النرويج"
+  },
+  {
+    "code": "NP",
+    "en": "Nepal",
+    "ar": "نيبال"
+  },
+  {
+    "code": "NR",
+    "en": "Nauru",
+    "ar": "نورو"
+  },
+  {
+    "code": "NU",
+    "en": "Niue",
+    "ar": "نيوي"
+  },
+  {
+    "code": "NZ",
+    "en": "New Zealand",
+    "ar": "نيوزيلاندا"
+  },
+  {
+    "code": "OM",
+    "en": "Oman",
+    "ar": "عمان"
+  },
+  {
+    "code": "PA",
+    "en": "Panama",
+    "ar": "بنما"
+  },
+  {
+    "code": "PE",
+    "en": "Peru",
+    "ar": "بيرو"
+  },
+  {
+    "code": "PF",
+    "en": "French Polynesia",
+    "ar": "بولينزيا الفرنسية"
+  },
+  {
+    "code": "PG",
+    "en": "Papua New Guinea",
+    "ar": "بابوا غينيا الجديدة"
+  },
+  {
+    "code": "PH",
+    "en": "Philippines",
+    "ar": "الفيلبين"
+  },
+  {
+    "code": "PK",
+    "en": "Pakistan",
+    "ar": "باكستان"
+  },
+  {
+    "code": "PL",
+    "en": "Poland",
+    "ar": "بولندا"
+  },
+  {
+    "code": "PM",
+    "en": "Saint Pierre and Miquelon",
+    "ar": "سان بيير وميكلون"
+  },
+  {
+    "code": "PN",
+    "en": "Pitcairn",
+    "ar": "بتكايرن"
+  },
+  {
+    "code": "PR",
+    "en": "Puerto Rico",
+    "ar": "بورتوريكو"
+  },
+  {
+    "code": "PS",
+    "en": "Palestinian, State of",
+    "ar": "فلسطين"
+  },
+  {
+    "code": "PT",
+    "en": "Portugal",
+    "ar": "البرتغال"
+  },
+  {
+    "code": "PW",
+    "en": "Palau",
+    "ar": "بالاو"
+  },
+  {
+    "code": "PY",
+    "en": "Paraguay",
+    "ar": "باراجواي"
+  },
+  {
+    "code": "QA",
+    "en": "Qatar",
+    "ar": "قطر"
+  },
+  {
+    "code": "RE",
+    "en": "Réunion",
+    "ar": "روينيون"
+  },
+  {
+    "code": "RO",
+    "en": "Romania",
+    "ar": "رومانيا"
+  },
+  {
+    "code": "RS",
+    "en": "Serbia",
+    "ar": "صربيا"
+  },
+  {
+    "code": "RU",
+    "en": "Russian Federation",
+    "ar": "روسيا"
+  },
+  {
+    "code": "RW",
+    "en": "Rwanda",
+    "ar": "رواندا"
+  },
+  {
+    "code": "SA",
+    "en": "Saudi Arabia",
+    "ar": "السعودية"
+  },
+  {
+    "code": "SB",
+    "en": "Solomon Islands",
+    "ar": "جزر سليمان"
+  },
+  {
+    "code": "SC",
+    "en": "Seychelles",
+    "ar": "سيشل"
+  },
+  {
+    "code": "SD",
+    "en": "Sudan",
+    "ar": "السودان"
+  },
+  {
+    "code": "SE",
+    "en": "Sweden",
+    "ar": "السويد"
+  },
+  {
+    "code": "SG",
+    "en": "Singapore",
+    "ar": "سنغافورة"
+  },
+  {
+    "code": "SH",
+    "en": "Saint Helena, Ascension and Tristan da Cunha",
+    "ar": "سانت هيلينا وأسينشين وتريستان دا كونا"
+  },
+  {
+    "code": "SI",
+    "en": "Slovenia",
+    "ar": "سلوفينيا"
+  },
+  {
+    "code": "SJ",
+    "en": "Svalbard and Jan Mayen",
+    "ar": "سفالبارد ويان ماين"
+  },
+  {
+    "code": "SK",
+    "en": "Slovakia",
+    "ar": "سلوفاكيا"
+  },
+  {
+    "code": "SL",
+    "en": "Sierra Leone",
+    "ar": "سيراليون"
+  },
+  {
+    "code": "SM",
+    "en": "San Marino",
+    "ar": "سان مارينو"
+  },
+  {
+    "code": "SN",
+    "en": "Senegal",
+    "ar": "السنغال"
+  },
+  {
+    "code": "SO",
+    "en": "Somalia",
+    "ar": "الصومال"
+  },
+  {
+    "code": "SR",
+    "en": "Suriname",
+    "ar": "سورينام"
+  },
+  {
+    "code": "SS",
+    "en": "South Sudan",
+    "ar": "جنوب السودان"
+  },
+  {
+    "code": "ST",
+    "en": "Sao Tome and Principe",
+    "ar": "ساو تومي وبرينسيب"
+  },
+  {
+    "code": "SV",
+    "en": "El Salvador",
+    "ar": "السلفادور"
+  },
+  {
+    "code": "SX",
+    "en": "Sint Maarten (Dutch Part)",
+    "ar": "سينت مارتن"
+  },
+  {
+    "code": "SY",
+    "en": "Syrian Arab Republic",
+    "ar": "سوريا"
+  },
+  {
+    "code": "SZ",
+    "en": "Eswatini",
+    "ar": "سوازيلاند"
+  },
+  {
+    "code": "TC",
+    "en": "Turks and Caicos Islands",
+    "ar": "جزر توركس وكايكوس"
+  },
+  {
+    "code": "TD",
+    "en": "Chad",
+    "ar": "تشاد"
+  },
+  {
+    "code": "TF",
+    "en": "French Southern Territories",
+    "ar": "أراض فرنسية جنوبية وأنتارتيكية"
+  },
+  {
+    "code": "TG",
+    "en": "Togo",
+    "ar": "توجو"
+  },
+  {
+    "code": "TH",
+    "en": "Thailand",
+    "ar": "تايلند"
+  },
+  {
+    "code": "TJ",
+    "en": "Tajikistan",
+    "ar": "طاجكستان"
+  },
+  {
+    "code": "TK",
+    "en": "Tokelau",
+    "ar": "توكيلو"
+  },
+  {
+    "code": "TL",
+    "en": "Timor-Leste",
+    "ar": "تيمور الشرقية"
+  },
+  {
+    "code": "TM",
+    "en": "Turkmenistan",
+    "ar": "تركمانستان"
+  },
+  {
+    "code": "TN",
+    "en": "Tunisia",
+    "ar": "تونس"
+  },
+  {
+    "code": "TO",
+    "en": "Tonga",
+    "ar": "تونجا"
+  },
+  {
+    "code": "TR",
+    "en": "Turkey",
+    "ar": "تركيا"
+  },
+  {
+    "code": "TT",
+    "en": "Trinidad and Tobago",
+    "ar": "ترينيداد وتوباغو"
+  },
+  {
+    "code": "TV",
+    "en": "Tuvalu",
+    "ar": "توفالو"
+  },
+  {
+    "code": "TW",
+    "en": "Taiwan (Province of China)",
+    "ar": "تايوان"
+  },
+  {
+    "code": "TZ",
+    "en": "Tanzania, United Republic of",
+    "ar": "تانزانيا"
+  },
+  {
+    "code": "UA",
+    "en": "Ukraine",
+    "ar": "أوكرانيا"
+  },
+  {
+    "code": "UG",
+    "en": "Uganda",
+    "ar": "أوغندا"
+  },
+  {
+    "code": "UM",
+    "en": "United States Minor Outlying Islands",
+    "ar": "جزر الولايات المتحدة الصغيرة النائية"
+  },
+  {
+    "code": "US",
+    "en": "United States of America",
+    "ar": "الولايات المتحدة"
+  },
+  {
+    "code": "UY",
+    "en": "Uruguay",
+    "ar": "أورجواي"
+  },
+  {
+    "code": "UZ",
+    "en": "Uzbekistan",
+    "ar": "أوزبكستان"
+  },
+  {
+    "code": "VA",
+    "en": "Holy See",
+    "ar": "الفاتيكان"
+  },
+  {
+    "code": "VC",
+    "en": "Saint Vincent and the Grenadines",
+    "ar": "سانت فينسنت والغرينادين"
+  },
+  {
+    "code": "VE",
+    "en": "Venezuela (Bolivarian Republic of)",
+    "ar": "فنزويلا"
+  },
+  {
+    "code": "VG",
+    "en": "Virgin Islands (British)",
+    "ar": "جزر العذراء البريطانية"
+  },
+  {
+    "code": "VI",
+    "en": "Virgin Islands (U.S.)",
+    "ar": "جزر العذراء الأمريكية"
+  },
+  {
+    "code": "VN",
+    "en": "Viet Nam",
+    "ar": "فيتنام"
+  },
+  {
+    "code": "VU",
+    "en": "Vanuatu",
+    "ar": "فانواتو"
+  },
+  {
+    "code": "WF",
+    "en": "Wallis and Futuna",
+    "ar": "والس وفوتونا"
+  },
+  {
+    "code": "WS",
+    "en": "Samoa",
+    "ar": "ساموا"
+  },
+  {
+    "code": "YE",
+    "en": "Yemen",
+    "ar": "اليمن"
+  },
+  {
+    "code": "YT",
+    "en": "Mayotte",
+    "ar": "مايوت"
+  },
+  {
+    "code": "ZA",
+    "en": "South Africa",
+    "ar": "جنوب أفريقيا"
+  },
+  {
+    "code": "ZM",
+    "en": "Zambia",
+    "ar": "زامبيا"
+  },
+  {
+    "code": "ZW",
+    "en": "Zimbabwe",
+    "ar": "زيمبابوي"
+  }
+]

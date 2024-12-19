@@ -19,7 +19,7 @@ export const useAppRoutes = ({ rootPath, routes }: AppRoutsHook) => {
 
     [],
   ).map((route) => ({
-    element: <Shield role={route.role || 'public'} />,
+    element: <Shield role={route.role || 'public'} layout={route.layout} />,
     children: route.routes,
   }));
 

@@ -14,7 +14,7 @@ import { HTTPResponseType, User } from '@/types/common.types';
 
 import UpdateStatus from './components/UpdateStatus';
 
-import { Template } from '@/layout';
+import { Template } from '@/layouts';
 
 export default function OrdersPage() {
   const [page, setPage] = useState(1);

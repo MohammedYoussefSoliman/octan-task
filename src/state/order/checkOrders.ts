@@ -2,7 +2,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 import generateInstance from '@/services/thunkInstance';
-
 import { RootState } from '@/state';
 import { showError, showSuccess } from '@/state/ui-actions/slice';
 

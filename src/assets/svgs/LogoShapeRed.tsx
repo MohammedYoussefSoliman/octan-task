@@ -1,4 +1,4 @@
-import { SVGprop } from "./types";
+import { SVGprop } from './types';
 
 const calculateProperty = (size: number, coefficient: number) =>
   size * coefficient;
@@ -9,7 +9,7 @@ function LogoShapeRed({ size }: SVGprop) {
 
   return (
     <svg
-      width={size || "100"}
+      width={size || '100'}
       height={height}
       viewBox="0 0 100 95"
       fill="none"

@@ -7,7 +7,7 @@ type Props = {
   alt: string;
 };
 
-export default function Picture({ url, alt }: Props) {
+export function Picture({ url, alt }: Props) {
   return (
     <StyledFigure>
       {url ? (

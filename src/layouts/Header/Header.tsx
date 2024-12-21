@@ -1,11 +1,14 @@
-import { Container, Flex } from "components/Grids";
-import { useAppSelector, useBreakpoints } from "hooks";
-import React from "react";
-import HeaderLogo from "../LayoutLogo";
-import ActionBar from "./Actions";
-import Navigation from "./Navigation";
-import NavMenu from "./NavMenu";
-import Wrapper from "./styles";
+import React from 'react';
+
+import { Container, Flex } from '@/components';
+import { useAppSelector, useBreakpoints } from '@/hooks';
+
+import HeaderLogo from '../LayoutLogo';
+
+import ActionBar from './Actions';
+import Navigation from './Navigation';
+import NavMenu from './NavMenu';
+import Wrapper from './styles';
 
 export default function Header() {
   const { headerVariant } = useAppSelector((state) => state.ui);
@@ -22,7 +25,7 @@ export default function Header() {
   };
 
   React.useEffect(() => {
-    window.addEventListener("scroll", toggleVisible);
+    window.addEventListener('scroll', toggleVisible);
   }, []);
 
   return (
@@ -45,9 +48,9 @@ export default function Header() {
           {medium ? (
             <HeaderLogo
               color={
-                headerVariant === "transparent" && !scrolledView
-                  ? "white"
-                  : "colored"
+                headerVariant === 'transparent' && !scrolledView
+                  ? 'white'
+                  : 'colored'
               }
             />
           ) : (
@@ -59,25 +62,25 @@ export default function Header() {
             >
               <NavMenu
                 transparentMode={
-                  headerVariant === "transparent" && !scrolledView
+                  headerVariant === 'transparent' && !scrolledView
                 }
               />
               <HeaderLogo
                 color={
-                  headerVariant === "transparent" && !scrolledView
-                    ? "white"
-                    : "colored"
+                  headerVariant === 'transparent' && !scrolledView
+                    ? 'white'
+                    : 'colored'
                 }
               />
             </Flex>
           )}
           {medium && (
             <Navigation
-              transparentMode={headerVariant === "transparent" && !scrolledView}
+              transparentMode={headerVariant === 'transparent' && !scrolledView}
             />
           )}
           <ActionBar
-            transparentMode={headerVariant === "transparent" && !scrolledView}
+            transparentMode={headerVariant === 'transparent' && !scrolledView}
             scrolledView={scrolledView}
           />
         </Flex>

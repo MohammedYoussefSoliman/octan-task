@@ -1,9 +1,10 @@
-import { useTheme } from "@emotion/react";
-import { SVGprop } from "./types";
+import { useTheme } from '@emotion/react';
+
+import { SVGprop } from './types';
 
 function Business({ size, color }: SVGprop) {
   const theme = useTheme();
-  const strokeWidth = size && size < 16 ? "1" : "2";
+  const strokeWidth = size && size < 16 ? '1' : '2';
 
   return (
     <svg

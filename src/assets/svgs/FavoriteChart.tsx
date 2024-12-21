@@ -1,10 +1,10 @@
-import { SVGprop } from "./types";
+import { SVGprop } from './types';
 
 function FavoriteChart({ size }: SVGprop) {
   return (
     <svg
-      width={size || "41"}
-      height={size || "41"}
+      width={size || '41'}
+      height={size || '41'}
       viewBox="0 0 41 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

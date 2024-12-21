@@ -1,13 +1,14 @@
-import { useTheme } from "@emotion/react";
-import { SVGprop } from "./types";
+import { useTheme } from '@emotion/react';
+
+import { SVGprop } from './types';
 
 function Linkedin({ size, color }: SVGprop) {
   const theme = useTheme();
 
   return (
     <svg
-      width={size || "24"}
-      height={size || "24"}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

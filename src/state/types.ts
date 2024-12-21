@@ -1,8 +1,7 @@
 import { SnackbarOrigin } from '@mui/material';
 
 import { FormValidationRules } from '@/components/Inputs/types';
-
-import { LayoutType } from '@/layout/layout.types';
+import { LayoutType } from '@/layouts/types';
 
 export type UserType = {
   roles: string[];

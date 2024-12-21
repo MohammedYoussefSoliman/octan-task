@@ -1,13 +1,14 @@
-import { useTheme } from "@emotion/react";
-import { SVGprop } from "./types";
+import { useTheme } from '@emotion/react';
+
+import { SVGprop } from './types';
 
 function BankIcon({ size, color }: SVGprop) {
   const theme = useTheme();
 
   return (
     <svg
-      width={size || "28"}
-      height={size || "28"}
+      width={size || '28'}
+      height={size || '28'}
       viewBox="0 0 28 28"
       xmlns="http://www.w3.org/2000/svg"
     >

@@ -1,13 +1,14 @@
-import { useTheme } from "@emotion/react";
-import { SVGprop } from "./types";
+import { useTheme } from '@emotion/react';
+
+import { SVGprop } from './types';
 
 function ShippingIcon({ size, color }: SVGprop) {
   const theme = useTheme();
 
   return (
     <svg
-      width={size || "40"}
-      height={size || "40"}
+      width={size || '40'}
+      height={size || '40'}
       viewBox="0 0 41 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

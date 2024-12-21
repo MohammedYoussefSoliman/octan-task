@@ -13,7 +13,7 @@ type Props = {
   minValue?: number;
 };
 
-export default function Counter({
+export function Counter({
   onChange,
   disabled,
   controlValue,

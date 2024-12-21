@@ -1,7 +1,8 @@
-import styled from "@emotion/styled";
-import { css } from "@emotion/react";
-import { Flex } from "components/Grids";
-import devices from "theme/sizes";
+import { css } from '@emotion/react';
+import styled from '@emotion/styled';
+
+import { Flex } from '@/components';
+import devices from '@/theme/sizes';
 
 const StyledRefundPaper = styled(Flex)`
   label: refund-paper;

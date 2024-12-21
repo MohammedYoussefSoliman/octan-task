@@ -7,7 +7,7 @@ interface Props extends Omit<CountUpProps, 'end'> {
   id: string;
 }
 
-export default function AnimatedCount({ value, id, ...rest }: Props) {
+export function AnimatedCount({ value, id, ...rest }: Props) {
   useCountUp({
     ref: id,
     end: value,

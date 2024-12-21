@@ -1,5 +1,6 @@
-import tinyColor from "tinycolor2";
-import { purple, blue, green, orange, red, shades } from "./colors";
+import tinyColor from 'tinycolor2';
+
+import { purple, blue, green, orange, red, shades } from './colors';
 
 const gradients = {
   1: `linear-gradient(90deg, ${purple[1000]} -23.99%, ${purple[700]} 51.36%, ${purple[1000]} 120.51%)`,

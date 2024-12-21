@@ -5,10 +5,9 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import { formDataHandler } from '@/helpers/functions';
 import urls from '@/helpers/urls';
+import logoutService from '@/state/auth/logoutService';
 
 import { useAppDispatch, useAppSelector } from './reduxHooks';
-
-import logoutService from '@/state/auth/logoutService';
 
 export default function useAuth() {
   const dispatch = useAppDispatch();

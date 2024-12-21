@@ -12,13 +12,7 @@ type Props = {
   imageBehavior?: CSSProperties['objectFit'];
 };
 
-export default function Figure({
-  url,
-  alt,
-  dense,
-  withPadding,
-  imageBehavior,
-}: Props) {
+export function Figure({ url, alt, dense, withPadding, imageBehavior }: Props) {
   return (
     <StyledFigure
       dense={dense}

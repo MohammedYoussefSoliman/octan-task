@@ -1,10 +1,10 @@
-import { SVGprop } from "./types";
+import { SVGprop } from './types';
 
 function SuccessShape({ size }: SVGprop) {
   return (
     <svg
-      width={size || "77"}
-      height={size || "77"}
+      width={size || '77'}
+      height={size || '77'}
       viewBox="0 0 77 77"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

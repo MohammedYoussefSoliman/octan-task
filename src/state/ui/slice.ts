@@ -2,11 +2,11 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import i18n from 'i18next';
 
+import { LayoutType } from '@/layouts/types';
+
 import { UIState } from '../types';
 
 import getBrandingService from './getBrandingService';
-
-import { LayoutType } from '@/layout/layout.types';
 
 const initialState: UIState = {
   mode: 'light',

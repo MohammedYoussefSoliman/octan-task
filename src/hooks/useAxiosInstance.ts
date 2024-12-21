@@ -2,11 +2,10 @@ import axios, { AxiosError, AxiosInstance, AxiosResponse } from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 import urls from '@/helpers/urls';
+import { setRequireNafathAuthentication, setGlobalError } from '@/state';
 
 import { useAppDispatch, useAppSelector } from './reduxHooks';
 import useAuth from './useAuth';
-
-import { setRequireNafathAuthentication, setGlobalError } from '@/state';
 
 export default function useAxiosInstance(language?: 'en' | 'ar') {
   const token = useAppSelector((state) => state.consumerAuth.token);

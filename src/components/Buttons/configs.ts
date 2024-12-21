@@ -1,9 +1,8 @@
 import tinyColor from 'tinycolor2';
 
+import { RootState, store } from '@/state';
 import getTheme from '@/theme';
 import devices from '@/theme/sizes';
-
-import { RootState, store } from '@/state';
 
 export function getCurrentState(): RootState {
   return store.getState();

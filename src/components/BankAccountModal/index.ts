@@ -1,1 +1,1 @@
-export { default } from "./BankAccountModal";
+export { default as BankAccountModal } from './BankAccountModal';

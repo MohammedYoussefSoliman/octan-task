@@ -1,5 +1,6 @@
-import React from "react";
-import { StepsType, Status, AppContextInterface } from "./types";
+import React from 'react';
+
+import { StepsType, Status, AppContextInterface } from './types';
 
 export const StepperStore = React.createContext<AppContextInterface>({
   steps: [],
@@ -14,8 +15,8 @@ export const StepperStore = React.createContext<AppContextInterface>({
 });
 
 const statusResolver = (
-  steps: StepsType["steps"],
-  type: "failed" | "completed",
+  steps: StepsType['steps'],
+  type: 'failed' | 'completed',
 ) => {
   let stepperStatus: Status = {};
   steps.forEach((step, index) => {
@@ -29,15 +30,15 @@ export default function Tabs({
   steps: currentSteps,
   currentStep,
 }: StepsType) {
-  const [steps] = React.useState<StepsType["steps"]>(currentSteps);
+  const [steps] = React.useState<StepsType['steps']>(currentSteps);
   const [activeStep, setActiveStep] = React.useState<number>(
     currentStep && currentStep < currentSteps.length ? currentStep : 0,
   );
   const [completed, setCompleted] = React.useState<Status>(
-    statusResolver(currentSteps, "completed"),
+    statusResolver(currentSteps, 'completed'),
   );
   const [failed, setFailed] = React.useState<Status>(
-    statusResolver(currentSteps, "failed"),
+    statusResolver(currentSteps, 'failed'),
   );
 
   const updateActiveStep = (index: number) => {

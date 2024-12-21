@@ -1,5 +1,6 @@
-import IBMPlexSans from "assets/fonts/IBMPlex-sans-arabic";
-import OpenSans from "assets/fonts/open-sans";
+import IBMPlexSans from '@/assets/fonts/IBMPlex-sans-arabic';
+import OpenSans from '@/assets/fonts/open-sans';
+
 import pallets, {
   blue,
   dark,
@@ -11,12 +12,12 @@ import pallets, {
   red,
   shades,
   yellow,
-} from "./colors";
-import gradients from "./gradients";
-import shadows from "./shadows";
-import { ThemeType } from "./types";
+} from './colors';
+import gradients from './gradients';
+import shadows from './shadows';
+import { ThemeType } from './types';
 
-const getTheme = (mode: "dark" | "light"): ThemeType => {
+const getTheme = (mode: 'dark' | 'light'): ThemeType => {
   return {
     font: IBMPlexSans.name,
     pallet: pallets[mode],

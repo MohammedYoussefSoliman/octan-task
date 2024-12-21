@@ -1,4 +1,4 @@
-import { SVGprop } from "./types";
+import { SVGprop } from './types';
 
 function SBCLogo({ size }: SVGprop) {
   const height = (width: number) => width * 0.2535;

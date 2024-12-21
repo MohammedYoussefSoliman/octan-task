@@ -1,132 +1,144 @@
-import { useState } from 'react';
+import React from 'react';
 
-import { useQuery } from '@tanstack/react-query';
-import axios from 'axios';
-import moment from 'moment';
-import { useNavigate } from 'react-router-dom';
+import { debounce } from 'lodash';
 
 import {
-  Status,
-  Table,
-  Typography,
-  DeleteItem,
-  IconButton,
+  Container,
+  Flex,
+  PaginationController,
+  NoDataCard,
+  Spinner,
+  OrdersFilter,
 } from '@/components';
-import { HTTPResponseType, Order } from '@/types/common.types';
+import { FilterStateType } from '@/components/OrdersFilter/types';
+import { useAppDispatch, useAppSelector } from '@/hooks';
+import { getOrders } from '@/state/order/getRefundOrders';
+import { changeHeaderVariant } from '@/state/ui/slice';
 
-import UpdateStatus from './components/UpdateStatus';
+import OrdersHeading from './components/OrdersHeading';
+import RefundOrders from './components/RefundOrders';
+import Wrapper from './styles';
 
-import { Template } from '@/layouts';
+const items = [
+  { label: 'inProgress', value: 'inProgress' },
+  { label: 'completed', value: 'complete' },
+];
 
-export default function OrdersPage() {
-  const [page, setPage] = useState(1);
-  const navigate = useNavigate();
-  const { data, isLoading, isError } = useQuery({
-    queryKey: ['orders', page],
-    queryFn: async () => {
-      const response = await axios.get<HTTPResponseType<Order[]>>(
-        'http://localhost:8000/orders',
-        {
-          params: {
-            _page: page,
-            _per_page: 10,
-          },
-        },
-      );
-      return response.data;
+export default React.memo(function OrdersList() {
+  const dispatch = useAppDispatch();
+  const {
+    consumerOrder: {
+      refundOrders: { orders, meta },
     },
+    consumerAuth: { nafathVerificationStatus },
+  } = useAppSelector((state) => state);
+  const [page, setPage] = React.useState<number>(meta?.current_page || 1);
+  const [loading, setLoading] = React.useState<boolean>(true);
+  const [filterState, setFilterState] = React.useState<FilterStateType>({
+    search: '',
+    status: 'inProgress',
   });
 
-  if (isError)
-    return (
-      <div className="w-full h-[60vh] flex flex-col justify-center items-center">
-        error happened
-      </div>
+  const updatedResponse = orders.map((order: any) => ({
+    ...order,
+    id: order.yamm_id,
+  }));
+
+  let content;
+
+  const handleFilterChange = React.useCallback(
+    (state: FilterStateType) => {
+      setFilterState(state);
+      setPage(1);
+    },
+    [setFilterState],
+  );
+  const sendFilterData = React.useCallback(
+    (state: FilterStateType) => {
+      dispatch(
+        getOrders({
+          config: {
+            params: {
+              ...state,
+              page,
+              perPage: 4,
+            },
+          },
+          onEnd() {
+            setLoading(false);
+          },
+        }),
+      );
+    },
+    [dispatch, page],
+  );
+
+  const debouncedFilterChange = debounce(handleFilterChange, 500);
+
+  React.useEffect(() => {
+    if (nafathVerificationStatus !== 'required') {
+      sendFilterData(filterState);
+    }
+  }, [filterState, nafathVerificationStatus, sendFilterData]);
+
+  React.useEffect(() => {
+    // adjust the header for this module
+    dispatch(changeHeaderVariant('white'));
+  }, [dispatch]);
+
+  if (nafathVerificationStatus === 'required') return null;
+
+  if (loading)
+    content = (
+      <Flex fullWidth align="center" justify="center" p={48}>
+        <Spinner size={50} />
+      </Flex>
+    );
+  else if (!orders.length)
+    content = (
+      <Flex fullWidth align="center" justify="center" height="60vh">
+        <NoDataCard text="youHaveNoOrders" />
+      </Flex>
+    );
+  else
+    content = (
+      <Flex
+        direction="column"
+        justify="space-between"
+        gap={{ xs: 30 }}
+        fullWidth
+      >
+        <RefundOrders orders={updatedResponse} />
+        {meta && meta.last_page > 1 && (
+          <Flex justify={{ xs: 'center', md: 'flex-end' }} fullWidth>
+            <PaginationController
+              pagesLength={meta.last_page}
+              activePage={page}
+              handleNext={() => setPage((prevPage) => prevPage + 1)}
+              handlePrev={() => setPage((prevPage) => prevPage - 1)}
+              dotClick={(value) => setPage(value)}
+            />
+          </Flex>
+        )}
+      </Flex>
     );
 
   return (
-    <Template title="Orders">
-      <div className="flex flex-col gap-2 w-full">
-        <Table
-          tableData={data?.data || []}
-          isLoading={isLoading}
-          pagination={
-            data
-              ? {
-                  page,
-                  setPage,
-                  lastPage: data.last,
-                }
-              : null
-          }
-          columns={[
-            {
-              header: 'ID',
-              accessor: 'id',
-              formatter: ({ value }) => (
-                <Typography as="p2" className="text-neutral-600">
-                  {value}
-                </Typography>
-              ),
-            },
-            {
-              header: 'Customer name',
-              accessor: 'customerName',
-              formatter: ({ value }) => (
-                <Typography as="p2" className="text-neutral-600">
-                  {value}
-                </Typography>
-              ),
-            },
-            {
-              header: 'Order Date',
-              accessor: 'date',
-              formatter: ({ value }) => (
-                <Typography as="p2" className="text-neutral-600">
-                  {moment(value).format('DD-MM-YYYY')}
-                </Typography>
-              ),
-            },
-            {
-              header: 'Total',
-              accessor: 'total',
-              formatter: ({ value }) => (
-                <Typography as="p2" className="text-neutral-600">
-                  {value} {'EGP'}
-                </Typography>
-              ),
-            },
-            {
-              header: 'Order Status',
-              accessor: 'status',
-              formatter: ({ value }) => <Status status={value} />,
-            },
-            {
-              header: 'Update Status',
-              accessor: 'status',
-              formatter: ({ data }) => <UpdateStatus order={data} />,
-            },
-            {
-              header: '',
-              accessor: 'id',
-              formatter: ({ value }) => (
-                <div className="flex gap-2">
-                  <IconButton
-                    iconName="Eye"
-                    onClick={() => navigate(`/${value}`)}
-                  />
-                  <DeleteItem
-                    endpoint="orders"
-                    id={value}
-                    queryKey={['orders']}
-                    successMessage={`Order ${value} deleted`}
-                  />
-                </div>
-              ),
-            },
-          ]}
-        />
-      </div>
-    </Template>
+    <Wrapper direction="column">
+      <Flex className="orders--page">
+        <Container>
+          <OrdersHeading />
+          <Flex
+            direction="column"
+            mt={{ xs: 30, md: 58 }}
+            gap={{ xs: 30 }}
+            fullWidth
+          >
+            <OrdersFilter onChange={debouncedFilterChange} radioItems={items} />
+            {content}
+          </Flex>
+        </Container>
+      </Flex>
+    </Wrapper>
   );
-}
+});

@@ -3,7 +3,6 @@ import { AsyncThunk, createAsyncThunk } from '@reduxjs/toolkit';
 import { AxiosRequestConfig } from 'axios';
 
 import generateInstance from '@/services/thunkInstance';
-
 import { RootState, showError, showSuccess } from '@/state';
 
 type ErrorFeedback = {

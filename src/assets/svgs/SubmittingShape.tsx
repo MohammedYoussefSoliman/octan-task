@@ -1,13 +1,14 @@
-import { useTheme } from "@emotion/react";
-import { SVGprop } from "./types";
+import { useTheme } from '@emotion/react';
+
+import { SVGprop } from './types';
 
 function SubmittingIcon({ size, color }: SVGprop) {
   const theme = useTheme();
 
   return (
     <svg
-      width={size || "32"}
-      height={size || "32"}
+      width={size || '32'}
+      height={size || '32'}
       viewBox="0 0 32 32"
       xmlns="http://www.w3.org/2000/svg"
     >

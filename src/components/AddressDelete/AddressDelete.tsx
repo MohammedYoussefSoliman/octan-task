@@ -5,7 +5,6 @@ import { useTheme } from '@emotion/react';
 
 import { IconButton, ConfirmModal } from '@/components';
 import { useAppDispatch, useAxiosInstance } from '@/hooks';
-
 import { getAddresses, showError } from '@/state';
 
 type Props = {

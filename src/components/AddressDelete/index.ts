@@ -1,1 +1,1 @@
-export { default } from "./AddressDelete";
+export { default as AddressDelete } from './AddressDelete';

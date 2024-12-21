@@ -1,13 +1,14 @@
-import { useTheme } from "@emotion/react";
-import { SVGprop } from "./types";
+import { useTheme } from '@emotion/react';
+
+import { SVGprop } from './types';
 
 function ChevronLeft({ size, color }: SVGprop) {
   const theme = useTheme();
 
   return (
     <svg
-      width={size || "16"}
-      height={size || "16"}
+      width={size || '16'}
+      height={size || '16'}
       viewBox="0 0 16 16"
       xmlns="http://www.w3.org/2000/svg"
     >

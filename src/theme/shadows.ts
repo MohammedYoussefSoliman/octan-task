@@ -1,5 +1,6 @@
-import tinyColor from "tinycolor2";
-import { blue, purple } from "./colors";
+import tinyColor from 'tinycolor2';
+
+import { blue, purple } from './colors';
 
 const shadows = {
   1: `0px 2px 4px ${tinyColor(blue[1000]).setAlpha(0.24).toString()}`,

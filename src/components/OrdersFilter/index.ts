@@ -1,1 +1,1 @@
-export { default } from './OrdersFilter';
+export { default as OrdersFilter } from './OrdersFilter';

@@ -1,13 +1,14 @@
-import { useTheme } from "@emotion/react";
-import { SVGprop } from "./types";
+import { useTheme } from '@emotion/react';
+
+import { SVGprop } from './types';
 
 function ArrowTop({ size, color }: SVGprop) {
   const theme = useTheme();
 
   return (
     <svg
-      width={size || "20"}
-      height={size || "20"}
+      width={size || '20'}
+      height={size || '20'}
       viewBox="0 0 20 20"
       xmlns="http://www.w3.org/2000/svg"
     >

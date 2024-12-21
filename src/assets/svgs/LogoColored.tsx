@@ -1,4 +1,4 @@
-import { SVGprop } from "./types";
+import { SVGprop } from './types';
 
 const calculateProperty = (size: number, coefficient: number) =>
   size * coefficient;
